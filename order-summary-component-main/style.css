@@ -132,3 +132,26 @@ body {
 .attribution a {
 	color: hsl(228, 45%, 44%);
 }
+
+@media screen and (max-width: 425px) {
+	body {
+		background-image: url(images/pattern-background-mobile.svg);
+		font-size: 14px;
+	}
+
+	.container {
+		width: 87%;
+	}
+
+	.title {
+		font-size: 25px;
+	}
+
+	.plan-box {
+		padding: 12px;
+	}
+
+	.plan-box-left {
+		margin-left: 10px;
+	}
+}
